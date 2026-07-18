@@ -6,4 +6,11 @@ if "  " in string:
 else:
     print("The string does not contain double space: " + string)
 
-# print("The string does not double contain space: " + string) 
+
+# using find function
+name = input("Enter your 2nd string: ")
+
+if name.find("  ") != -1:
+    print("The string contains double space.")
+else:
+    print("The string does not contain double space: " + name)
